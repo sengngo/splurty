@@ -3,6 +3,12 @@
 .clear {
 	clear:both;
 }
+/* Header------ --- --- --- --- --- --- --- --- --- --- --- 
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---  */
+
+header {
+	border-top: 9px solid #222222;
+}
 
 .circle {
     font-weight:bold;
@@ -24,11 +30,27 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+.logo:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
   padding-top: 26px;
 }
+
+
+.slogan {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  padding-top: 26px;
+}
+
+/* links------ --- --- --- --- --- --- --- --- --- --- --- 
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---  */
 
 .links {
 	padding-top:26px;
@@ -42,13 +64,13 @@
 	font-weight: bold;
 }
 
-header {
-	border-top: 9px solid #222222;
-}
 
 hr {
 	clear: both;
 }
+
+/* Headings------ --- --- --- --- --- --- --- --- --- --- --- 
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---  */
 
 h1 {
 	font-family: 'quicksandbold', sans-serif;
@@ -67,12 +89,8 @@ h2 {
 	font-size: 20px;
 }
 
-.slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
-  padding-top: 26px;
-}
-
+/* Footer------ --- --- --- --- --- --- --- --- --- --- --- 
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---  */
 .footer-blurb {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
@@ -80,6 +98,3 @@ h2 {
   font-size: 10px;
 }
 
-.logo:hover {
-	text-decoration: none;
-}
