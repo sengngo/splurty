@@ -10,27 +10,43 @@
 <body>
 	<header>
 
-		<div class="col-xs-3">
-			<div class="circle">
-			  <br />
-			  You know
-			  <br />
-			  you need
-			  <br />
-			  to code
+			<div class="col-xs-3">
+				<div class="circle">
+				
+			  <% link_to root_path, :class => 'logo' do %>
+				  <br />
+				  You know
+				  <br />
+				  you need
+				  <br />
+				  to code
+				</div>
+			<!-- means we are not going to display the value -->
+			  <% end %> 
 			</div>
-		</div>
-		<div class="col-xs-4 slogan">
-			Splurting out unsolicited advice about traveling, photography, and general life since 2015.
-		</div>
-		<div class="col-xs-5 links">
-			<%= link_to 'Contribute', '#' %>
-			<%= link_to 'About', '#' %>
+			<div class="col-xs-4 slogan">
+				Splurting out unsolicited advice about traveling, photography, and general life since 2015.
+			</div>
+			<div class="col-xs-5 links">
+				<%= link_to 'Contribute', new_quote_path %>
+				<%= link_to 'About', '#' %>
 	</header>
-	<hr /> <!--This is a line divider -->
-<br class="clear" />
+		<hr /> <!--This is a line divider -->
+	<br class="clear" />
+	<div class="container">
+		<%= yield %>
+	</div>
 
-<%= yield %>
-
+	<div class="footer">
+		<div class="container">
+			<div class="col-xs-6">
+				<%= link_to "This isn't enough, I need more", root_path, :class => 'next-quote' %>
+			</div>
+			<div class="col-xs-6 footer-blurb">
+				Proudly hacked in Fishkill, NY by <a href="http://sengngo.com">Seng</a><br />
+			</div>
+				Want to build your own Splurty Web App? <a href="http://thefirehoseproject.com">Learn how to code here</a>
+		</div>
+</div>
 </body>
 </html>
