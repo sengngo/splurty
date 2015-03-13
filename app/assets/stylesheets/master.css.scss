@@ -1,4 +1,8 @@
-
+@media (max-width: 750px) {
+	.footer-blurb {
+	text-align: left;
+	}
+}
 
 .clear {
 	clear:both;
@@ -94,7 +98,8 @@ h2 {
 .footer-blurb {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
-  text-align: right;
+   /* I really didn't like the way it looked right aligned */
+  text-align: left;
   font-size: 10px;
 }
 
@@ -104,3 +109,14 @@ h2 {
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
  }
+
+
+/* Modal------ --- --- --- --- --- --- --- --- --- --- --- 
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---  */
+ .modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+::selection {
+	background-color: #f84342;
+}
