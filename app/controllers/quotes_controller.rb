@@ -3,10 +3,6 @@ class QuotesController < ApplicationController
 		@quote = Quote.order("RANDOM()").first
 	end #index
 
-	def new
-		@quote = Quote.new
-	end #new
-
 	# sends the saying and author part to the data based to get saved
 	def create
 		@quote = Quote.create(quote_params)
@@ -16,6 +12,9 @@ class QuotesController < ApplicationController
 	
 		redirect_to root_path
 	end #create
+
+	def about
+	end
 
 	private
 	#quote_params defines the parameter of a quote
