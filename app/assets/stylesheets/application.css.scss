@@ -13,10 +13,11 @@
  */
 
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 h2 span {
-	color: #ddd;
+	color: #f84342;
 	font-family: 'quicksandbold', sans-serif;
 }
