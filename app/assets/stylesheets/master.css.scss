@@ -1,9 +1,4 @@
 
-@media (max-width: 750px) {
-  .footer-blurb {
-    text-align: left;
-  	}
-}
 
 .clear {
 	clear:both;
@@ -128,4 +123,8 @@ h2 {
   .footer-blurb {
     text-align: left;
   	}
+}
+
+@-ms-view{
+width: device-width;
 }
